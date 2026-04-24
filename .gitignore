@@ -1,0 +1,22 @@
+# Large files (use Google Drive instead)
+*.ckpt
+*.pth
+data/images/*.png
+nerf-large-files/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+
+# Nerfstudio outputs
+outputs/
+renders/
+
+# System
+.DS_Store
+Thumbs.db

@@ -2,10 +2,11 @@
 _target: !!python/name:nerfstudio.engine.trainer.Trainer ''
 data: &id003 !!python/object/apply:pathlib.PosixPath
 - /
-- content
+- home
+- bhoomik2
+- nerf-perfume-render
 - data
-- processed
-experiment_name: processed
+experiment_name: null
 gradient_accumulation_steps: {}
 load_checkpoint: null
 load_config: null
@@ -90,11 +91,11 @@ optimizers:
       warmup_steps: 0
 output_dir: !!python/object/apply:pathlib.PosixPath
 - /
-- content
-- drive
-- MyDrive
-- nerf_perfume_project
-- output
+- home
+- bhoomik2
+- nerf-perfume-render
+- model
+- 2026-04-23_043022
 pipeline: !!python/object:nerfstudio.pipelines.base_pipeline.VanillaPipelineConfig
   _target: !!python/name:nerfstudio.pipelines.base_pipeline.VanillaPipeline ''
   datamanager: !!python/object:nerfstudio.data.datamanagers.parallel_datamanager.ParallelDataManagerConfig
